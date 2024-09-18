@@ -321,7 +321,7 @@ align-items: center;
     z-index: 2345678 ;
 
     .grid{
-        height: 100%;
+        height: ;
 
         width: 100%;
         /* border: 2px solid rgb(0, 17, 128); */
@@ -484,7 +484,7 @@ align-items: center;
             margin-bottom: 8px;
             font-family: "Roboto";
             width: 100%;
-            border: 2px solid purple;
+            /* border: 2px solid purple; */
 
             & .Copyright-text{
                 margin-top: 13px;
@@ -513,6 +513,10 @@ align-items: center;
             .side-heading{
                 padding-left:10px ;
 
+            }
+            .youtube-apps{
+                height: 65%;
+                width: 80%;
             }
 
             .icon{
@@ -1810,8 +1814,8 @@ align-items: center;
     }
 
     & input{
-        border: none;
-        height: 15px;
+        /* border: none; */
+        height: 12px;
         font-size: 6px;
     }
 
@@ -2197,7 +2201,7 @@ align-items: center;
     & .middle-div{
         width: 70%;
         height: 12px; 
-        padding: 0 0 0 10px;
+        padding: 0 0 0 12px;
         /* border: 2px solid black; */
         margin-left: 22px;
 
@@ -2216,8 +2220,8 @@ align-items: center;
 
     & input{
         /* border: none; */
-        height: 10px;
-        font-size: 6px;
+        height: 5px;
+        font-size: 5px;
     }
 
 }
