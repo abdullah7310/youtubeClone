@@ -100,11 +100,12 @@ align-items: center;
         cursor: pointer;
         font-size: 20px;
         width: 8%;
-        background-color: rgba(205, 201, 201, 0.203);
+        /* background-color: rgba(245, 29, 29, 0.126); */
         border: 1px solid var(--ternary);
         border-left:none ;
         border-radius: 0px 40px 40px 0px;
     }
+
     .search-icon:hover{
         background-color: rgba(215, 211, 211, 0.361);
     }
@@ -253,13 +254,16 @@ align-items: center;
 }
 
 /* *************************Second sidebar******************** */
-
+#inputtt{
+    position: relative;
+    z-index: 123;
+}
 .second-header{
     /* border: 2px solid red; */
     position: fixed;
     background-color: #fff;
     top: 56px;
-    z-index: 1000;
+    z-index: 11;
     left: 93px;
     /* padding: 10px; */
     /* overflow: hidden; */
@@ -318,10 +322,10 @@ align-items: center;
     /* display: flex; */
     left: 93px;
     /* border: 2px solid red; */
-    z-index: 2345678 ;
+    z-index: 1123456;
 
     .grid{
-        height: ;
+        /* height: ; */
 
         width: 100%;
         /* border: 2px solid rgb(0, 17, 128); */
@@ -436,7 +440,7 @@ align-items: center;
     } 
 
 ::-webkit-scrollbar { 
-    width: 7px; 
+    width: 5px; 
     
   }
 
@@ -447,11 +451,11 @@ align-items: center;
     /* display: none; */
     /* left: -300px; */
     top: 56px;
+    /* overflow: auto; */
     overflow: auto;
-    overflow-x: hidden;
     /* scrollbar-width: 2px; */
     background: white;
-    transition: all 0.2s linear;
+    transition: all 0.5s linear;
     height: 100vh;
     width: 215px;
     z-index: 20000;
@@ -581,6 +585,10 @@ align-items: center;
     & img{
         height: 25px;
     }
+}
+
+.sidebar-menu:hover {
+    overflow-y: auto ;
 }
 
 .flex-div:hover{
